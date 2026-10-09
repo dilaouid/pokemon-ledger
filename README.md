@@ -31,7 +31,7 @@ By playing, you learn to:
 
 ### 1. Meet Anthony and prove who you are
 
-Anthony, the coin-integration manager, needs a recruit to rescue Obelix (he has been kidnapped by the Team Rocket or whatever). To join, you sign a short message on your device. It is free and creates nothing on chain.
+Anthony, the coin-integration manager, needs a recruit to rescue Obelix (he has been kidnapped by the #team-rocket or whatever). To join, you sign a short message on your device. It is free and creates nothing on chain.
 
 <p>
   <img src="screenshots/intro.png" width="400" alt="Anthony and Alpaca introduce the quest" />
