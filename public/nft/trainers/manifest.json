@@ -1,0 +1,86 @@
+[
+  {
+    "opponentId": 0,
+    "trainer": "teddy",
+    "image": "teddy.png",
+    "sha256": "ef2391e3a5c89e116fc53019d62a30c299e49fd8dedfd2e3f9344a3c95ea4b9f"
+  },
+  {
+    "opponentId": 1,
+    "trainer": "benoit",
+    "image": "benoit.png",
+    "sha256": "3110dc65ce48151c31871f2bf497e9e120173184c79e96b0e26ce3e6a82ad8fc"
+  },
+  {
+    "opponentId": 2,
+    "trainer": "diyaeddine",
+    "image": "diyaeddine.png",
+    "sha256": "537ba49e6444e06b7fbd4fbdd186cd4dec0683f45909a8e50fdc495cd6f8b43a"
+  },
+  {
+    "opponentId": 3,
+    "trainer": "stephane",
+    "image": "stephane.png",
+    "sha256": "fc55e340df36fd40d13e9899a50a1dde2e482fc95fd4e042c97b5f1d7f3d6918"
+  },
+  {
+    "opponentId": 4,
+    "trainer": "henri",
+    "image": "henri.png",
+    "sha256": "325be22cf8fdb51bee25993db23c6949ffdf6dc84e45ebd65816f487c58f370e"
+  },
+  {
+    "opponentId": 5,
+    "trainer": "livio",
+    "image": "livio.png",
+    "sha256": "a7916001eab846241dfe71ccaa24c2fffd6550b8060084be20c77e84fe18718f"
+  },
+  {
+    "opponentId": 6,
+    "trainer": "moustafa",
+    "image": "moustafa.png",
+    "sha256": "4a080c55c0b30d16f6b470fbfac0c53e3d966c162d034d2e0e8456e2fe553417"
+  },
+  {
+    "opponentId": 7,
+    "trainer": "oscar",
+    "image": "oscar.png",
+    "sha256": "73a18fdadd513baefdd94c1eeb238b4528175b2bb88064862b6758f8bf0f3626"
+  },
+  {
+    "opponentId": 8,
+    "trainer": "francois",
+    "image": "francois.png",
+    "sha256": "f1bc778397ccd5f017b086d00ff228694d1f5f227537950eb8422c4d497cfe65"
+  },
+  {
+    "opponentId": 9,
+    "trainer": "quentin",
+    "image": "quentin.png",
+    "sha256": "c1b12ce466a9636ab9734f53d80d34551c2353a36457171516482c600a398e74"
+  },
+  {
+    "opponentId": 10,
+    "trainer": "piotr",
+    "image": "piotr.png",
+    "sha256": "ef678ed2d9255053a5ffb73a1c5efa44432ec3a3798eb92fd868d12949d2d3b1"
+  },
+  {
+    "opponentId": 11,
+    "trainer": "hedi",
+    "image": "hedi.png",
+    "sha256": "a1c7cdb5d0a5be2c7b10419b2eea433d2bd931f18f0a7e787d569b3c6fa5f5c1"
+  },
+  {
+    "opponentId": 12,
+    "trainer": "tristan",
+    "image": "tristan.png",
+    "sha256": "655edc5c485a9528965f3ffb2824c5d2fc2d8fd8a3c4cec55efea5659474fb31"
+  },
+  {
+    "opponentId": 13,
+    "trainer": "panoramix",
+    "image": "panoramix.svg",
+    "sha256": "c9ec84ab1e2f3573f7750ad279ab55490f270161a26f58253444018f08c3e7c8"
+  }
+]
