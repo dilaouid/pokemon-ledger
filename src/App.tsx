@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { EventBus } from './game/EventBus';
+import { DebugPanel } from './DebugPanel';
 import { PhaserGame } from './PhaserGame';
 import { WalletPanel } from './WalletPanel';
 
@@ -25,6 +26,7 @@ function App() {
     return (
         <div id="app">
             <PhaserGame />
+            <DebugPanel />
             <WalletPanel />
         </div>
     );
