@@ -81,7 +81,7 @@ To play with a real device:
 ## Tech stack
 
 - [Phaser 4](https://phaser.io) and React, bundled with Vite
-- [Ledger Wallet API](https://developers.ledger.com/docs/ledger-live/discover/integration/wallet-api) for accounts, message signing and transactions
+- [Ledger Wallet API]([https://developers.ledger.com/docs/ledger-live/discover/integration/wallet-api](https://developers.ledger.com/docs/ledger-live/discover/integration/wallet-api/introduction)) for accounts, message signing and transactions
 - [viem](https://viem.sh) for Sepolia reads and signature checks
 - A Solidity ERC-721 contract (`chain/contracts/LedgerMon.sol`), built with Hardhat and OpenZeppelin
 
