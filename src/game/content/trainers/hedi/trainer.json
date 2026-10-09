@@ -1,0 +1,37 @@
+{
+  "name": "HEDI",
+  "order": 12,
+  "beforeFight": [
+    "I'M THE REAL EMOJI KING."
+  ],
+  "onWin": [
+    "YOU WON, I WON'T :SADCATW: IT."
+  ],
+  "onLose": [
+    ":DOOTDOOTCLOWN: ON YOU."
+  ],
+  "victoryNft": {
+    "name": "HEDI BADGE",
+    "contract": "0xa10000000000000000000000000000000000000c",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa10000000000000000000000000000000000000c?a=1"
+  },
+  "pokemon": {
+    "name": "NEST",
+    "contract": "0x700000000000000000000000000000000000000c",
+    "tokenId": "12",
+    "url": "https://sepolia.etherscan.io/token/0x700000000000000000000000000000000000000c?a=12",
+    "level": 5,
+    "hp": 64,
+    "attack": 72,
+    "defense": 52,
+    "move": "BITE",
+    "blurb": "THE NEST DOES NOT SLEEP.",
+    "template": "beast",
+    "flip": false,
+    "outline": "#201810",
+    "body": "#c8b090",
+    "shade": "#806040",
+    "accent": "#f8d040"
+  }
+}

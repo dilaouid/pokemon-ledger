@@ -1,0 +1,37 @@
+{
+  "name": "TRISTAN",
+  "order": 13,
+  "beforeFight": [
+    "I'M CURRENTLY VERY FAR AWAY.", "WANNA JOIN THE ROAD TRIP?"
+  ],
+  "onWin": [
+    "TIME TO CHANGE TEAM I GUESS."
+  ],
+  "onLose": [
+    "I CONTINUE MY JOURNEY HERE."
+  ],
+  "victoryNft": {
+    "name": "TRISTAN BADGE",
+    "contract": "0xa10000000000000000000000000000000000000d",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa10000000000000000000000000000000000000d?a=1"
+  },
+  "pokemon": {
+    "name": "WARD",
+    "contract": "0x700000000000000000000000000000000000000d",
+    "tokenId": "13",
+    "url": "https://sepolia.etherscan.io/token/0x700000000000000000000000000000000000000d?a=13",
+    "level": 5,
+    "hp": 80,
+    "attack": 76,
+    "defense": 64,
+    "move": "RUIN",
+    "blurb": "KEEPS THE FAR END.",
+    "template": "dragon",
+    "flip": false,
+    "outline": "#180820",
+    "body": "#6840a8",
+    "shade": "#381860",
+    "accent": "#f8d040"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "MOUSTAFA",
+  "order": 7,
+  "beforeFight": [
+    "...\n..."
+  ],
+  "onWin": [
+    "...\n...."
+  ],
+  "onLose": [
+    "...\n...."
+  ],
+  "victoryNft": {
+    "name": "MUTESTAFA BADGE",
+    "contract": "0xa100000000000000000000000000000000000007",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000007?a=1"
+  },
+  "pokemon": {
+    "name": "DUSK",
+    "contract": "0x7000000000000000000000000000000000000007",
+    "tokenId": "7",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000007?a=7",
+    "level": 5,
+    "hp": 50,
+    "attack": 58,
+    "defense": 46,
+    "move": "SHADE",
+    "blurb": "EYES LIKE COINS.",
+    "template": "beast",
+    "flip": true,
+    "outline": "#201830",
+    "body": "#7050a0",
+    "shade": "#402868",
+    "accent": "#f8d868"
+  }
+}

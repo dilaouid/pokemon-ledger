@@ -1,0 +1,37 @@
+{
+  "name": "FRANCOIS",
+  "order": 9,
+  "beforeFight": [
+    "YOU WILL EAT RUST FROM NOW ON."
+  ],
+  "onWin": [
+    "I FAILED. JUST SOME FLAKINESS."
+  ],
+  "onLose": [
+    "BIOBURGER?"
+  ],
+  "victoryNft": {
+    "name": "FRANCOIS BADGE",
+    "contract": "0xa100000000000000000000000000000000000009",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000009?a=1"
+  },
+  "pokemon": {
+    "name": "SHELL",
+    "contract": "0x7000000000000000000000000000000000000009",
+    "tokenId": "9",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000009?a=9",
+    "level": 5,
+    "hp": 56,
+    "attack": 64,
+    "defense": 48,
+    "move": "SHELL",
+    "blurb": "IRON SHELL, SHUT TIGHT.",
+    "template": "armor",
+    "flip": true,
+    "outline": "#183018",
+    "body": "#68b050",
+    "shade": "#387038",
+    "accent": "#d0d8e0"
+  }
+}

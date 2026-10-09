@@ -1,0 +1,37 @@
+{
+  "name": "LIVIO",
+  "order": 6,
+  "beforeFight": [
+    "YO, HOW ARE YOU?"
+  ],
+  "onWin": [
+    "NICE JOB WINNING, GOAT."
+  ],
+  "onLose": [
+    "WELL TRY NEXT TIME."
+  ],
+  "victoryNft": {
+    "name": "LIVIO BADGE",
+    "contract": "0xa100000000000000000000000000000000000006",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000006?a=1"
+  },
+  "pokemon": {
+    "name": "REEF",
+    "contract": "0x7000000000000000000000000000000000000006",
+    "tokenId": "6",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000006?a=6",
+    "level": 5,
+    "hp": 46,
+    "attack": 56,
+    "defense": 42,
+    "move": "REEF",
+    "blurb": "CORAL FROM THE DOCK.",
+    "template": "serpent",
+    "flip": false,
+    "outline": "#401828",
+    "body": "#f07088",
+    "shade": "#c04058",
+    "accent": "#f8c0a0"
+  }
+}

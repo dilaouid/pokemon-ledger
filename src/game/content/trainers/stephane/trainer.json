@@ -1,0 +1,37 @@
+{
+  "name": "STEPHANE",
+  "order": 4,
+  "beforeFight": [
+    "NOW? DON'T HAVE MUCH TIME FOR THIS."
+  ],
+  "onWin": [
+    "THAT WAS FUN."
+  ],
+  "onLose": [
+    "TRAIN HARDER."
+  ],
+  "victoryNft": {
+    "name": "STEPHANE BADGE",
+    "contract": "0xa100000000000000000000000000000000000004",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000004?a=1"
+  },
+  "pokemon": {
+    "name": "MUCK",
+    "contract": "0x7000000000000000000000000000000000000004",
+    "tokenId": "4",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000004?a=4",
+    "level": 5,
+    "hp": 48,
+    "attack": 48,
+    "defense": 44,
+    "move": "MUD",
+    "blurb": "HEAVY MUD HORNS.",
+    "template": "brute",
+    "flip": false,
+    "outline": "#302010",
+    "body": "#a07040",
+    "shade": "#684020",
+    "accent": "#e0b060"
+  }
+}

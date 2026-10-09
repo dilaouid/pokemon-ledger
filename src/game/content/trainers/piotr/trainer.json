@@ -1,0 +1,37 @@
+{
+  "name": "PIOTR",
+  "order": 11,
+  "beforeFight": [
+    "SWITCHED YOUR SKILL TO QA?."
+  ],
+  "onWin": [
+    "IS THAT A REGRESSION?"
+  ],
+  "onLose": [
+    "CLOSE THIS."
+  ],
+  "victoryNft": {
+    "name": "PIOTR BADGE",
+    "contract": "0xa10000000000000000000000000000000000000b",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa10000000000000000000000000000000000000b?a=1"
+  },
+  "pokemon": {
+    "name": "BLAZE",
+    "contract": "0x700000000000000000000000000000000000000b",
+    "tokenId": "11",
+    "url": "https://sepolia.etherscan.io/token/0x700000000000000000000000000000000000000b?a=11",
+    "level": 5,
+    "hp": 58,
+    "attack": 70,
+    "defense": 46,
+    "move": "BLAZE",
+    "blurb": "RUNS TOO HOT.",
+    "template": "beast",
+    "flip": true,
+    "outline": "#401010",
+    "body": "#e05030",
+    "shade": "#a02818",
+    "accent": "#f8d040"
+  }
+}

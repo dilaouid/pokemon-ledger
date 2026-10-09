@@ -1,48 +1,95 @@
-body {
+html,
+body,
+#root,
+#app,
+#game-container {
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #000000; 
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #10121a;
+    overflow: hidden;
 }
 
 #app {
-    width: 100%;
-    height: 100vh;
     overflow: hidden;
+}
+
+canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+canvas:focus {
+    outline: none;
+}
+
+.intro-film {
+    position: fixed;
+    z-index: 4;
+    margin: 0;
+    pointer-events: none;
+    object-fit: contain;
+    background: #10121a;
+    opacity: 1;
+    transition: opacity 160ms linear;
+}
+
+.intro-caption {
+    position: fixed;
+    z-index: 5;
+    margin: 0;
+    pointer-events: none;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: #f8f8f8;
+    font: 13px/1 ui-monospace, monospace;
+    letter-spacing: 0.22em;
+    text-shadow: 0 1px 0 #000;
+    opacity: 1;
+    transition: opacity 160ms linear;
 }
 
-.spritePosition {
-    margin: 10px 0 0 10px;
-    font-size: 0.8em;
+.intro-caption.is-dim {
+    visibility: hidden;
 }
 
-.button {
-    width: 140px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #000000;
-    color: rgba(255, 255, 255, 0.87);
-    border: 1px solid rgba(255, 255, 255, 0.87);
-    cursor: pointer;
-    transition: all 0.3s;
-
-    &:hover {
-        border: 1px solid #0ec3c9;
-        color: #0ec3c9;
-    }
-
-    &:active {
-        background-color: #0ec3c9;
-    }
-
-    /* Disabled styles */
-    &:disabled {
-        cursor: not-allowed;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        color: rgba(255, 255, 255, 0.3);
-    }
+.power-off {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #f8f8d0;
+    font-family: ui-monospace, monospace;
+    letter-spacing: 0.42em;
+    font-size: 14px;
 }
+
+.wallet-panel {
+    position: fixed; top: 8px; right: 8px; z-index: 20;
+    width: max-content; max-width: min(310px, calc(100vw - 16px));
+    box-sizing: border-box;
+    color: #f8f8d0; font: 12px/1.5 ui-monospace, monospace;
+}
+.wallet-panel.is-open {
+    width: min(310px, calc(100vw - 16px)); max-height: calc(100vh - 16px);
+    overflow: auto; padding: 8px;
+    background: #10121aee; border: 1px solid #806050;
+}
+.wallet-panel button, .wallet-panel input {
+    font: inherit; padding: 6px; box-sizing: border-box;
+    border: 1px solid #806050; background: #183058; color: #f8f8d0;
+}
+.wallet-panel button { cursor: pointer; margin: 4px 4px 4px 0; }
+.wallet-toggle { margin: 0; }
+.wallet-panel.is-open .wallet-toggle { display: block; width: 100%; margin: 0 0 8px; }
+.wallet-panel button:disabled { opacity: .5; cursor: wait; }
+.wallet-panel a { color: #f8e060; display: block; }
+.wallet-panel code { display: block; overflow-wrap: anywhere; }
+.wallet-panel label { display: block; margin-top: 8px; }
+.wallet-panel input:not([type=checkbox]) { width: 100%; }
+.wallet-error { color: #ff9a80; }

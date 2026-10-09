@@ -1,0 +1,37 @@
+{
+  "name": "HENRI",
+  "order": 5,
+  "beforeFight": [
+    "ANOTHER MEETING? RIGHT NOW?"
+  ],
+  "onWin": [
+    "OK YOU CAN LEAVE NOW."
+  ],
+  "onLose": [
+    "NOOB."
+  ],
+  "victoryNft": {
+    "name": "HENRI BADGE",
+    "contract": "0xa100000000000000000000000000000000000005",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000005?a=1"
+  },
+  "pokemon": {
+    "name": "GUST",
+    "contract": "0x7000000000000000000000000000000000000005",
+    "tokenId": "5",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000005?a=5",
+    "level": 5,
+    "hp": 42,
+    "attack": 54,
+    "defense": 38,
+    "move": "GUST",
+    "blurb": "HARD TO PIN DOWN.",
+    "template": "avian",
+    "flip": false,
+    "outline": "#183040",
+    "body": "#68b0e8",
+    "shade": "#3878b0",
+    "accent": "#f8f8f8"
+  }
+}

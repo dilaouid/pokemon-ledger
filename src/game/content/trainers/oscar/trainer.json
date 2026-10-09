@@ -1,0 +1,37 @@
+{
+  "name": "OSCAR",
+  "order": 8,
+  "beforeFight": [
+    "BONJOUR.\nCOMMENT CA VA?"
+  ],
+  "onWin": [
+    "CA VA TRES BIEN."
+  ],
+  "onLose": [
+    "CA VA MOYEN."
+  ],
+  "victoryNft": {
+    "name": "OSCAR BADGE",
+    "contract": "0xa100000000000000000000000000000000000008",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000008?a=1"
+  },
+  "pokemon": {
+    "name": "IRON",
+    "contract": "0x7000000000000000000000000000000000000008",
+    "tokenId": "8",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000008?a=8",
+    "level": 5,
+    "hp": 48,
+    "attack": 62,
+    "defense": 50,
+    "move": "STEEL",
+    "blurb": "COLD IRON WINGS.",
+    "template": "avian",
+    "flip": true,
+    "outline": "#202028",
+    "body": "#b0b8c8",
+    "shade": "#687080",
+    "accent": "#e8f0f8"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "DIYAEDDINE",
+  "order": 3,
+  "beforeFight": [
+    ":YESCAT:\n:YAY-FROG:"
+  ],
+  "onWin": [
+    ":NOCAT: :SADCATW:"
+  ],
+  "onLose": [
+    "HEHE-CAT:"
+  ],
+  "victoryNft": {
+    "name": "DIYAEDDINE BADGE",
+    "contract": "0xa100000000000000000000000000000000000003",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000003?a=1"
+  },
+  "pokemon": {
+    "name": "VOLT",
+    "contract": "0x7000000000000000000000000000000000000003",
+    "tokenId": "3",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000003?a=3",
+    "level": 5,
+    "hp": 38,
+    "attack": 50,
+    "defense": 36,
+    "move": "ZAP",
+    "blurb": "CHARGED AND FIDGETY.",
+    "template": "beast",
+    "flip": false,
+    "outline": "#303010",
+    "body": "#f0d840",
+    "shade": "#c09818",
+    "accent": "#80e8f8"
+  }
+}

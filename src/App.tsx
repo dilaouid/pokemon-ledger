@@ -1,42 +1,33 @@
-import { useRef } from 'react';
-import { IRefPhaserGame, PhaserGame } from './PhaserGame';
-import * as Phaser from 'phaser';
+import { useEffect, useState } from 'react';
+import { EventBus } from './game/EventBus';
+import { PhaserGame } from './PhaserGame';
+import { WalletPanel } from './WalletPanel';
 
-function App()
-{
+function App() {
+    const [off, setOff] = useState(false);
 
-    //  References to the PhaserGame component (game and scene are exposed)
-    const phaserRef = useRef<IRefPhaserGame | null>(null);
+    useEffect(() => {
+        const shutdown = () => setOff(true);
+        EventBus.on('power-off', shutdown);
+        return () => {
+            EventBus.off('power-off', shutdown);
+        };
+    }, []);
 
-    const addSprite = () => {
-
-        if (phaserRef.current)
-        {
-            const scene = phaserRef.current.scene;
-
-            if (scene)
-            {
-                // Add a new sprite to the current scene at a random position
-                const x = Phaser.Math.Between(64, scene.scale.width - 64);
-                const y = Phaser.Math.Between(64, scene.scale.height - 64);
-    
-                //  `add.sprite` is a Phaser GameObjectFactory method and it returns a Sprite Game Object instance
-                const star = scene.add.sprite(x, y, 'star');
-    
-            }
-        }
+    if (off) {
+        return (
+            <div id="app" className="power-off">
+                <p>u not true gamer</p>
+            </div>
+        );
     }
 
     return (
         <div id="app">
-            <PhaserGame ref={phaserRef} />
-            <div>
-                <div>
-                    <button className="button" onClick={addSprite}>Add New Sprite</button>
-                </div>
-            </div>
+            <PhaserGame />
+            <WalletPanel />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

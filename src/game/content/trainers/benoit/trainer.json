@@ -1,0 +1,37 @@
+{
+  "name": "BENOIT",
+  "order": 2,
+  "beforeFight": [
+    "WE CAN START THE DAILY.\nON PASSE EN FRANCAIS?"
+  ],
+  "onWin": [
+    "BIEN JOUE. ON PEUT CLOSE LE NFT."
+  ],
+  "onLose": [
+    "DAILY IS OVER."
+  ],
+  "victoryNft": {
+    "name": "BENOIT BADGE",
+    "contract": "0xa100000000000000000000000000000000000002",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa100000000000000000000000000000000000002?a=1"
+  },
+  "pokemon": {
+    "name": "PEBB",
+    "contract": "0x7000000000000000000000000000000000000002",
+    "tokenId": "2",
+    "url": "https://sepolia.etherscan.io/token/0x7000000000000000000000000000000000000002?a=2",
+    "level": 5,
+    "hp": 40,
+    "attack": 42,
+    "defense": 46,
+    "move": "ROCK",
+    "blurb": "PEBBLE ON GUARD.",
+    "template": "armor",
+    "flip": false,
+    "outline": "#282830",
+    "body": "#a8a8b0",
+    "shade": "#686878",
+    "accent": "#e0e0e8"
+  }
+}

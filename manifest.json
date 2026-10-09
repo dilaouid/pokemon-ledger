@@ -1,0 +1,21 @@
+{
+  "$schema": "https://live-app-catalog.ledger.com/schema.json",
+  "id": "pokemonledgerdev",
+  "name": "Pokemon Ledger",
+  "url": "http://localhost:8080/",
+  "homepageUrl": "http://localhost:8080/",
+  "platform": ["desktop"],
+  "apiVersion": "^2.0.0",
+  "manifestVersion": "2",
+  "branch": "stable",
+  "categories": ["NFT"],
+  "currencies": ["ethereum_sepolia"],
+  "content": {
+    "shortDescription": { "en": "LedgerMon on Sepolia" },
+    "description": { "en": "Claim your starter, defeat 13 coin-integrator and challenge Panoramix. Testnet game to learn how to use a Ledger Device." }
+  },
+  "permissions": ["account.list", "account.request", "message.sign", "transaction.sign"],
+  "domains": ["http://localhost:8080", "https://ethereum-sepolia-rpc.publicnode.com", "https://sepolia.etherscan.io"],
+  "visibility": "complete",
+  "icon": "http://localhost:8080/favicon.png"
+}

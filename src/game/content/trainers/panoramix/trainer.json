@@ -1,0 +1,13 @@
+{
+  "name": "PANORAMIX",
+  "order": 14,
+  "beforeFight": ["YOU'VE SEEN ALL OF THE TEAM.", "THEY WERE VERY FUNNY!", "GUESS IT'S MY TURN NOW!"],
+  "onWin": ["WISDOM AND COURAGE.\nYOU ARE THE CHAMPION!", "BUT OBELIX IS ANOTHER DEVICE.", "YOU GOT IT?", "THAT'S A JOKE ABOUT SUPER MARIO BROS", "I'M NOW THE NEW OBELIX DEAL WITH IT BRO."],
+  "onLose": ["A LITTLE MORE\nPRACTICE, MY FRIEND.", "THE BIG CASH WILL\nWAIT FOR YOU."],
+  "victoryNft": { "name": "PANORAMIX CHAMPION", "contract": "configured-at-runtime", "tokenId": "on-chain", "url": "configured-at-runtime" },
+  "pokemon": {
+    "name": "ALPACA", "contract": "configured-at-runtime", "tokenId": "13", "url": "configured-at-runtime",
+    "level": 7, "hp": 120, "attack": 80, "defense": 80, "move": "POTION", "blurb": "PANORAMIX'S ALPACA.",
+    "template": "dragon", "flip": false, "outline": "#183020", "body": "#50a060", "shade": "#285038", "accent": "#f8e060"
+  }
+}

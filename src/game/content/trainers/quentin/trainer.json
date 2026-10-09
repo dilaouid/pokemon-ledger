@@ -1,0 +1,37 @@
+{
+  "name": "QUENTIN",
+  "order": 10,
+  "beforeFight": [
+    "WANNA WATCH A HORROR MOVIE?"
+  ],
+  "onWin": [
+    "OK YOU WIN. BUT JUST THIS TIME.", "BECAUSE YOU CAN'T RETRY LOL"
+  ],
+  "onLose": [
+    "GROW UP, LOSER."
+  ],
+  "victoryNft": {
+    "name": "QUENTIN BADGE",
+    "contract": "0xa10000000000000000000000000000000000000a",
+    "tokenId": "1",
+    "url": "https://sepolia.etherscan.io/token/0xa10000000000000000000000000000000000000a?a=1"
+  },
+  "pokemon": {
+    "name": "FROST",
+    "contract": "0x700000000000000000000000000000000000000a",
+    "tokenId": "10",
+    "url": "https://sepolia.etherscan.io/token/0x700000000000000000000000000000000000000a?a=10",
+    "level": 5,
+    "hp": 62,
+    "attack": 66,
+    "defense": 54,
+    "move": "FROST",
+    "blurb": "THE COLD GATE.",
+    "template": "brute",
+    "flip": true,
+    "outline": "#183040",
+    "body": "#d0e8f8",
+    "shade": "#78a8c8",
+    "accent": "#f8f8ff"
+  }
+}
